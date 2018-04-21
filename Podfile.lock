@@ -1,0 +1,65 @@
+PODS:
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.6.0):
+    - GoogleMaps/Base (= 2.6.0)
+  - MaterialComponents/AnimationTiming (53.0.0)
+  - MaterialComponents/Buttons (53.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (53.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (53.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (53.0.0)
+  - MaterialComponents/private/KeyboardWatcher (53.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (53.0.0)
+  - MaterialComponents/private/Overlay (53.0.0)
+  - MaterialComponents/ShadowElevations (53.0.0)
+  - MaterialComponents/ShadowLayer (53.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (53.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (53.0.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (1.0.4)
+  - MDFTextAccessibility (1.2.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - MaterialComponents/Snackbar
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+
+SPEC CHECKSUMS:
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
+  MaterialComponents: 1b487cfa216c62fb695d42a7eb150cefbaa5d553
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+
+PODFILE CHECKSUM: 4286d944480023712dc0a6d03f37b016b0e246ae
+
+COCOAPODS: 1.5.0
